@@ -46,7 +46,6 @@ const typeDefs = gql`
 }
 `
 
-
 const resolvers = {
     Query: {
         UserCount: () => users.length,
